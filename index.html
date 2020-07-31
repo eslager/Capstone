@@ -32,6 +32,10 @@
     <script src="leaflet-legend.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
+    <!-- font awesome scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
   </head>
  <body>
 
@@ -54,12 +58,14 @@
 
   <div id="legend">
    <svg width="150" height="80">
-      <line x1="10" y1="20" x2="40" y2="20" class="path" />
+      <line x1="10" y1="20" x2="40" y2="20" stroke="black" stroke-width="2" class="path" />
       <text x="40" y="20" transform="translate(8,4)">Thalweg</text>
       <line x1="10" y1="40" x2="40" y2="40" class="cycleway" />
       <text x="40" y="40"transform="translate(8,4)">Water surface</text>
       <line x1="10" y1="60" x2="40" y2="60" class="track" />
       <text x="40" y="60" transform="translate(8,4)">Pools</text>
+        <ul>
+
    </svg>
  </div>
  </body>

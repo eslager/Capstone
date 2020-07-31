@@ -28,3 +28,8 @@ p {
 #basemaps {
   margin-bottom: 5px;
 }
+
+#line .path {
+  stroke: blue;
+  stroke-width: 5px
+}
